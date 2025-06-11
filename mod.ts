@@ -1,4 +1,3 @@
-export type Edges = [number, number, number][];
 /** Finds a min-cost perfect matching in an undirected graph. */
 export class Blossom {
   private back;
@@ -19,7 +18,7 @@ export class Blossom {
   private to: Int32Array;
   private up: Int32Array;
   /** Matches the graph specified by {@linkcode edges}.  */
-  constructor(private edges: Edges, all: boolean) {
+  constructor(private edges: [number, number, number][], all: boolean) {
     const size = edges.length, end = this.end = new Int32Array(size << 1);
     const ok = this.ok = new Uint8Array(size), queue = this.queue;
     let a = 0, b, c, d, e, f, g = 0, h = 0, i, z = 0, y = 0, x = 0, w = 0, v, u;
