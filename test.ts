@@ -1,5 +1,5 @@
 import { assertEquals } from "jsr:@std/assert@^1.0.13";
-import { Blossom, Edges } from "@nyoon/blossom";
+import { Blossom, Edges } from "./mod.ts";
 
 Deno.test("mwmatching", () =>
   fetch("https://jorisvr.nl/files/graphmatching/20130407/mwmatching.py").then(
