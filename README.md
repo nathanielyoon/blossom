@@ -1,6 +1,6 @@
 # blossom
 
-Find an [undirect graph's minimum-cost perfect matching](https://w.wiki/8QHM).
+Find an [undirected graph's minimum-cost perfect matching](https://w.wiki/8QHM).
 
 ```ts
 import { Blossom, Edges } from "@nyoon/blossom";
