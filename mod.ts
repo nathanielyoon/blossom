@@ -9,7 +9,7 @@ export class Blossom {
   private end: Int32Array;
   private label: Int32Array;
   /** Each index's match, or `-1` if unmatched. */
-  mate;
+  mate: Int32Array;
   private max;
   private next;
   private ok: Uint8Array;
